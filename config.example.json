@@ -1,0 +1,22 @@
+{
+  "port": 18790,
+  "voice": {
+    "enabled": true,
+    "backend": "irodori",
+    "url": "http://127.0.0.1:8088",
+    "model": "irodori-tts",
+    "initial_voice": "my-voice",
+    "allowed_voices": ["my-voice"],
+    "token_env": ""
+  },
+  "image": {
+    "enabled": true,
+    "backend": "webui",
+    "url": "http://127.0.0.1:7860",
+    "width": 768,
+    "height": 1024,
+    "steps": 20,
+    "workflow": "workflow.json",
+    "output_node": ""
+  }
+}

@@ -1,0 +1,6 @@
+/.venv/
+/config.json
+/data/
+/workflow.json
+/__pycache__/
+/test-output/
